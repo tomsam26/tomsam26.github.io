@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@500&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    background-image: url("assets/background.png");
+}
+
+#text {
+    padding: 0% 10%;
+    text-align: center;
+}
+
+li,
+a {
+    font-family: "Sono", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ff0099;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 10%;
+    background-color: #333333;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.navigation {
+    list-style: none;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+#name {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10% 0% 2% 0%;
+}
+
+#position {
+    font-size: 20px;
+    color: #ff0099;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 2%;
+}
+
+#about-me {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 20px;
+}
+
+.sentence1 {
+    padding-bottom: 1%;
+}
+
+
+.dash p {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5%;
+    padding-bottom: 3%;
+
+}
+
+
+#definitions h2 {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#definitions p {
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 1%;
+}
